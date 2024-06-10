@@ -11,6 +11,7 @@ const AdminDashboard: React.FC = () => {
       <div className="dashboard-links">
         <Link to="/user" className="dashboard-link">Go to User Dashboard</Link>
         <Link to="/guest" className="dashboard-link">Go to Guest Dashboard</Link>
+        <Link to="/public" className="dashboard-link">Public page</Link>
       </div>
     </div>
   );
